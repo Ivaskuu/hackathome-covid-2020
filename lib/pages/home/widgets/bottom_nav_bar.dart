@@ -12,9 +12,7 @@ class BottomNavBar extends StatelessWidget {
         elevation: 6.0,
         color: Palette.scaffold_background,
         child: Padding(
-          padding: const EdgeInsets.symmetric(
-            vertical: 2.0,
-          ).copyWith(
+          padding: EdgeInsets.only(
             bottom: MediaQuery.of(context).padding.bottom,
             top: 4.0,
           ),
@@ -76,12 +74,12 @@ class MenuButton extends StatelessWidget {
               children: <Widget>[
                 Icon(
                   icon,
-                  color: enabled ? Palette.primary : Palette.grey_text,
+                  color: enabled ? Palette.primary : Palette.grey_50,
                 ),
                 Text(
                   text,
                   style: TextStyle(
-                    color: enabled ? Palette.primary : Palette.grey_text,
+                    color: enabled ? Palette.primary : Palette.grey_50,
                     fontWeight: FontWeight.w700,
                     fontSize: TextSize.smol,
                   ),

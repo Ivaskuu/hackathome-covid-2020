@@ -6,6 +6,7 @@ class Palette {
 
   static const Color star = const Color(0xFFFFB100);
 
+  static const Color grey_50 = const Color(0x80000000);
   static const Color grey_text = const Color(0x1F000000);
   static const Color secondary = const Color(0x05000000);
 

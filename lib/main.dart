@@ -1,5 +1,5 @@
 import 'package:covidelivery/misc/palette.dart';
-import 'package:covidelivery/pages/home/home_page.dart';
+import 'package:covidelivery/pages/home.dart';
 import 'package:covidelivery/states/navigation_state.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             Theme.of(context).textTheme,
           ),
         ),
-        home: HomePage(),
+        home: Home(),
       ),
     );
   }
